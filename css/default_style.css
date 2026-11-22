@@ -1,8 +1,11 @@
-/** 
-    Author: 
-    Course: 
-    Lesson: 
-**/
+
+/*
+Author: Kay2261076
+Course: CIS133DA
+Section: 27531
+Lesson: 9
+*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -14,9 +17,9 @@ body {
     margin-top: 50px;
 }
 
-/** Header Styles **/
+/* Header Styles */
 header {
-    background: black url(../images/background.jpg) no-repeat center;
+    background: black url("../images/background.jpg") no-repeat center;
     background-size: cover;
     color: white;
     margin: 0;
@@ -30,8 +33,7 @@ h1 {
     margin: 0;
 }
 
-/** Navigation Bar Styles **/
-
+/* Navigation Bar Styles */
 nav ul {
     list-style-type: none;
     background-color: #2d3437;
@@ -57,23 +59,22 @@ nav a:hover {
 }
 
 nav .active {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #135367;
+    color: #ffffff;
 }
 
 nav .right {
     float: right;
-    background-color: orange;
-    color: black;
+    background-color: #135367;
 }
 
 nav {
     top: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
 
-/** Main Styles **/
+/* Main Styles */
 main {
     padding: 20px;
     width: 900px;
@@ -82,7 +83,69 @@ main {
     margin: 0 auto;
 }
 
-/** Footer Styles **/
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #333333;
+    background-color: white;
+    padding: 5px;
+}
+
+th {
+    background-color: #2d3437;
+    color: white;
+    padding: 10px;
+}
+
+tr:first-child th {
+    border-bottom-width: medium;
+}
+
+th[rowspan] {
+    border-right-width: medium;
+}
+
+/* Form Styles */
+form {
+    border: 1px solid #333333;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+form button {
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+
+form button:hover {
+    background-color: #2d3437;
+    color: white;
+}
+
+/* Footer Styles */
 footer {
     background-color: #2d3437;
     color: white;
